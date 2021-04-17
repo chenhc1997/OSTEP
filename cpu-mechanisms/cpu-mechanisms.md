@@ -19,7 +19,7 @@ THE CRUX: HOW TO EFFICIENTLY VIRTUALIZE THE CPU WITH CONTROL
 
 ## 6.2 Problem #1: Restricted Operations
 
-<img src="/Volumes/Macintosh HD - Data/Github/OSTEP/cpu-mechanisms/imgs/2.png" style="zoom:50%;" />
+<img src="imgs/2.png" style="zoom:50%;" />
 
 **Q: WHY SYSTEM CALLS LOOK LIKE PROCEDURE CALLS？**
 
@@ -37,7 +37,7 @@ Special instructions to **trap** into the kernel and **return-from-trap** back t
 
 The kernel does so by setting up a **trap table** at boot time.
 
-<img src="/Volumes/Macintosh HD - Data/Github/OSTEP/cpu-mechanisms/imgs/3.png" style="zoom:50%;" />
+<img src="imgs/3.png" style="zoom:50%;" />
 
 ## 6.3 Problem #2: Switching Between Processes
 
@@ -47,5 +47,5 @@ The kernel does so by setting up a **trap table** at boot time.
 
 **A Non-Cooperative Approach:** a timer interrupt.
 
-<img src="/Volumes/Macintosh HD - Data/Github/OSTEP/cpu-mechanisms/imgs/4.png" alt="4" style="zoom:50%;" />
+<img src="imgs/4.png" alt="4" style="zoom:50%;" />
 
